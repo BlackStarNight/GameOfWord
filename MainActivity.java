@@ -101,7 +101,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     public void newWord(){   //метод получения нового слова
-        rand = (int) (Math.random() * 10);
+        rand = (int) (Math.random() * m);
         underWord = getWord(Words[rand]);
         Word.setText(underWord);
         WordInput.setText(underWord);
