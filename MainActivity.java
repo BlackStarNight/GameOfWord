@@ -124,36 +124,4 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         update();
     }
 
-
-
-
-
-
-
-
-
-       /*     FileOutputStream fout = openFileOutput("file.txt", Context.MODE_WORLD_READABLE | Context.MODE_WORLD_WRITEABLE);
-            copyFromTo(is, fout);
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-
-    }
-
-    private void copyFromTo(InputStream fin, OutputStream fout) throws IOException
-    {
-        byte[] b = new byte[1024];
-        int noOfBytes = 0;
-
-        while ((noOfBytes = fin.read(b)) != -1)
-        {
-            fout.write(b, 0, noOfBytes);
-        }
-
-        fin.close();
-        fout.close();
-    }*/
-
 }
